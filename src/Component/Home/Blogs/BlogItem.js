@@ -25,7 +25,7 @@ const BlogItems = ({blog :
 
       </div>
       </div>
-      <a  className="blogItem-link" href ={linkTo}><span style={{fontSize:"2rem"}}>&#8594;</span></a>
+      <a  className="blogItem-link" href ={linkTo} target="_blank" rel="noreferrer"><span style={{fontSize:"2rem"}}>&#8594;</span></a>
     </footer>
     </div>
   )
